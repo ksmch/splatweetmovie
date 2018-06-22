@@ -6,11 +6,13 @@ var mysql = require('mysql');
 var ejs_hello = fs.readFileSync("./hello.ejs", 'utf-8');
 var ejs_tweetlist = fs.readFileSync("./tweetlist.ejs", 'utf-8');
 
+mysql://b49c824740c2da:c407fa91@us-cdbr-iron-east-04.cleardb.net/heroku_20e30b52a4f14b5?reconnect=true
+
 var connection = mysql.createConnection({
   host:'us-cdbr-iron-east-04.cleardb.net',
-  user:'bd4dbe8beb9637',
-  password:'2c18df4b',
-  database:'heroku_a70d299fbf5da8d',
+  user:'b49c824740c2da',
+  password:'c407fa91',
+  database:'heroku_20e30b52a4f14b5',
   port:3306
 });
 connection.connect();
