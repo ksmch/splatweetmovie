@@ -2,11 +2,13 @@
   "name": "splatweetmovie",
   "version": "0.0.0",
   "dependencies": {
-    "ejs": "^2.6.1"
+    "ejs": "^2.6.1",
+    "mysql": "*"
   },
-  "main": "sampleapp.js",
+  "main": "splatweetmovie.js",
   "devDependencies": {},
   "scripts": {
+    "start": "node splatweetmovie.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
