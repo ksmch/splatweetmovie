@@ -1,10 +1,10 @@
 {
-  "name": "sampleapp",
+  "name": "splatweetmovie",
   "version": "0.0.0",
   "dependencies": {
     "ejs": "^2.6.1"
   },
-  "main": "sampleapp_local.js",
+  "main": "sampleapp.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
