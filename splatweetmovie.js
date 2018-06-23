@@ -19,7 +19,7 @@ var ejs_tweetlist = fs.readFileSync("./tweetlist.ejs", 'utf-8');
 
 function handleDisconnect() {
     console.log('INFO.CONNECTION_DB: ');
-    connection = mysql.createConnection(db_config);
+    connection = mysql.createConnection(config_db);
 
     //connection取得
     connection.connect(function(err) {
