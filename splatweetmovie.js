@@ -13,8 +13,8 @@ var config_db = {
 };
 var connection;
 
-var ejs_hello = fs.readFileSync("./hello.ejs", 'utf-8');
-var ejs_tweetlist = fs.readFileSync("./tweetlist.ejs", 'utf-8');
+var ejs_hello = fs.readFileSync("./ejs/splatweetmovie.ejs", 'utf-8');
+var ejs_tweetlist = fs.readFileSync("./ejs/tweetlist.ejs", 'utf-8');
 
 
 function handleDisconnect() {

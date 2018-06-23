@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "ejs": "^2.6.1",
-    "mysql2": "*"
+    "mysql2": "^1.5.3"
   },
   "main": "splatweetmovie.js",
   "devDependencies": {},
